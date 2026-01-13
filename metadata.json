@@ -1,0 +1,5 @@
+{
+  "name": "PureVision 图标去底工具",
+  "description": "一款高性能的 React 工具，通过 Canvas API 编程识别并移除图标的纯色背景，将其转换为透明的 RGBA PNG，无需 AI 参与。",
+  "requestFramePermissions": []
+}
