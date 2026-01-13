@@ -6,10 +6,11 @@ export interface RGBColor {
 }
 
 export interface ProcessingOptions {
-  tolerance: number;   // 容差：完全透明的范围
-  smoothness: number;  // 平滑度：过渡区域的范围
+  tolerance: number;
+  smoothness: number;
   targetColor: RGBColor;
   autoDetect: boolean;
+  brushSize: number; // 画笔大小
 }
 
 export interface ImageDataState {
